@@ -1,0 +1,87 @@
+
+
+@media(max-width:1399px){
+   
+}
+@media(max-width:1199px){
+    .banner-section .banner-content .banner-inner {
+        width: 50%;
+    }
+    .banner-section .banner-content .banner-inner span {
+        font-size: 42px;
+    }
+    .banner-section .banner-content .banner-inner h2 {
+        line-height: 42px;
+    }
+    .about-section .card-body h5 {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+    .about-section .card-body p {
+        font-size: 16px;
+    }
+    .feature-content {
+        padding: 40px;
+    }
+    .feature-content ul li {
+        font-size: 18px;
+    }
+    .description-section p {
+        font-size: 16px;
+    }
+
+
+}
+@media(max-width:991px){
+    .banner-section .banner-content .banner-inner {
+        width: 55%;
+    }
+    .banner-section .banner-content .banner-inner span {
+        font-size: 32px;
+    }
+    .feature-content {
+        padding: 5px;
+    }
+    .about-section .card-body {
+        text-align: center;
+        padding: 30px 35px;
+    }
+
+}
+
+@media(max-width:767px){
+    .banner-section .banner-content .banner-inner {
+        width: 80%;
+    }
+    .description-section p {
+        padding: 0px 45px;
+    }
+    .about-section .card-body {
+        padding: 20px 0px;
+    }
+    .feature-content h2 {
+        color: #fff;
+    }
+    .feature-content ul li {
+        color: #fff;
+    }
+    .feature-img {
+        background: #00000070 url(../images/banner2.png) center top no-repeat;
+        background-blend-mode: overlay;
+    }
+    header img {
+        width: 40%;
+    }
+     
+}
+@media(max-width:575px){
+
+}
+@media(max-width:384px){
+    .banner-section .banner-content .banner-inner {
+        width: 100%;
+    }
+    .banner-section .banner-content .banner-inner h2 {
+        line-height: 33px;
+    }
+}

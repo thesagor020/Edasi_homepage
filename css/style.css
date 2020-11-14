@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.bg{
+    background: #000000;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+}
+h1 span {
+    color: #21B573 !important;
+    font-size: 56px !important;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    line-height: 32px;
+    /* padding: 0px 127px; */
+}
+ .btn-info {
+    padding: 10px 14px;
+    margin-top: 20px;
+    color: #fff;
+    background: #000;
+    transition-duration: .3s;
+}
+.btn-info:hover {
+    background: transparent!important;
+    color: #000!important;
+    border: 1px solid #000;
+}
+.btn-info:active ,:focus {
+    border-color: none!important;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 32px;
+    color: #413960;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+/*****header section*****/
+header{
+    padding: 30px 0px;
+}
+header img{
+    width: 15%;
+}
+/***header-end***/
+.banner-section{
+    background: url(..//images/banner.png) center top no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px;
+}
+.banner-section .banner-content{
+    text-align: center;
+}
+.banner-section .banner-content .banner-inner {
+    padding: 60px;
+    margin: 0 auto;
+    width: 40%;
+    background: rgb(255, 255, 255 ,.6);
+}
+.banner-section .banner-content .banner-inner h2{
+    font-weight: 700;
+    line-height: 50px;
+}
+.banner-section .banner-content .banner-inner span{
+    font-size: 46px;
+    color: #000;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 30px;
+}
+
+/*****banner-section-end*****/
+.description-section{
+    padding: 50px 0px;
+}
+.description-section .description-inner{
+    text-align: center;
+}
+.border-b{
+    width: 50%;
+    height: 2px;
+    background: #000;
+    margin: 25px auto;
+}
+.description-section p{
+    padding: 0px 250px;
+}
+/*****description end*****/
+.about-section{
+    padding: 30px 0px 80px;
+}
+.about-section .card{
+    border: none!important;
+}
+.about-section .card-body {
+    text-align: center;
+    padding: 30px 70px;
+}
+.about-section .card-body h5 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 26px;
+}
+.about-section .card-body p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.about-section .card-body .divider{
+    width: 20%;   
+    height: 2px; 
+    background: #000; 
+    margin: 12px auto;
+    }
+/*****about-section-end*****/
+.feature-img{
+    background: url(../images/banner2.png) center top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.feature-content {
+    padding: 80px;
+}
+.feature-content h2 {
+    font-size: 48px;
+    color: #000000;
+    line-height: 60px;
+}
+.feature-content ul li{
+    padding: 7px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.feature-content ul li i {
+    margin-right: 10px;
+}
+/*****feature-content*****/
+.description-inner img {
+    padding-bottom: 20px;
+}
+/*end*/
+.discount-inner h2 {
+    font-size: 36px;
+    padding: 20px 0px;
+}
+.discount-inner p {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.discount-inner .btn-info {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 12px;
+}
+footer {
+    padding: 60px 0px 5px;
+}
+.copyright a{
+    font-size: 15px;
+    color: #000;
+}
+.copyright a:hover{
+    color: #fb2257;
+}
